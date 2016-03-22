@@ -2,6 +2,8 @@
 
 `npm` installs packages locally within your projects by default. You can also install packages globally (e.g. `npm install -g <package>`) (useful for command-line apps). However the downside of this is that you need to be root (or use `sudo`) to be able to install globally.
 
+*NOTE! If you already have Node.js installed use [this guide](https://github.com/ronnidc/guides/blob/master/Completely-Uninstall-Nodejs-from-Mac-OS-X.md) first to uninstall Node.js and npm.*
+
 Here is a way to install packages globally for a given user.
 
 ###### 1. Create a directory for globally packages

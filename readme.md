@@ -8,6 +8,7 @@
 - [Set environment variables](set-environment-variables.md)
 - [How not to `rm` yourself](how-not-to-rm-yourself.md)
 - [Install npm packages globally without sudo](npm-global-without-sudo.md) *(OS X & Linux)*
+- [Completely uninstall Node.js from Mac OS X](Completely-Uninstall-Nodejs-from-Mac-OS-X.md) *(OS X)*
 - [Run a Node.js server alongside Apache](run-node-server-alongside-apache.md) *(Linux)*
 - [Launch app on startup](launch-app-on-startup-osx.md) *(OS X)*
 - [Add New Home User Bin Directory in Mac OS X](add-new-user-bin-directory-in-mac-os-x.md) *(OS X)*

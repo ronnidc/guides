@@ -1,10 +1,8 @@
-# Completely Uninstall Node.js from Mac OS X
+# Completely Uninstall Node.js + npm from Mac OS X
 
+This guide is usefull if you already have `Node.js` installed on Mac OS X but want to install `npm` packages globally without the `sudo` command
 
-Inspired by [this post by Benjie Bantecil](http://benznext.com/completely-uninstall-node-js-from-mac-os-x/)
-
-
-## Remove the following directories and/or files
+## Delete the following directories and/or files from you harddisk
 
 1. go to `/usr/local/lib` and delete any `node` and `node_modules`
 2. go to `/usr/local/include` and delete any `node` and `node_modules` directory
@@ -18,8 +16,10 @@ Inspired by [this post by Benjie Bantecil](http://benznext.com/completely-uninst
 9. go to `/usr/local/lib/dtrace` and delete `node.d`
 10. go to `/opt/local/include` and delete `node`
 11. go to `/opt/local/lib` and delete `node_modules`
-12. `~/.npm`
-13. `~/.node-gyp`
-
+12. go to `~/` and delete `.npm`
+13. go to `~/` and delete `.node-gyp`
 
 Inspired by [this post by Benjie Bantecil](http://benznext.com/completely-uninstall-node-js-from-mac-os-x/)
+
+## Now it's time to install Node.js the right way:
+[Install npm packages globally without sudo on OS X and Linux](https://github.com/ronnidc/guides/blob/master/npm-global-without-sudo.md)

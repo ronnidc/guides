@@ -4,7 +4,7 @@ This guide is usefull if you already have `Node.js` installed on Mac OS X but wa
 
 ## Delete the following directories and/or files from you harddisk
 
-1. go to `/usr/local/lib` and delete any `node` and `node_modules`
+1. go to `/usr/local/lib` and delete any `node` and `node_modules` directory
 2. go to `/usr/local/include` and delete any `node` and `node_modules` directory
 3. go to `~/local` and delete any `node` and `node_modules` directory
 4. go to `~/lib` and delete any `node` and `node_modules` directory

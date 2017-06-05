@@ -32,7 +32,7 @@ export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 -
 
-Check out [`npm-g_nosudo`](https://github.com/glenpike/npm-g_nosudo) for doing the above steps automagically
+(Check out [`npm-g_nosudo`](https://github.com/glenpike/npm-g_nosudo) for doing the above steps automagically)
 
 -
 
@@ -43,10 +43,11 @@ source ~/.bashrc
 ```
 
 ---
-###### 4. Get and install the latest npm, which is 3.5.3 at the time of this writing. 
+###### 4. Install Node (LTS version) and NPM with n
 ```
-curl -L https://www.npmjs.org/install.sh | sh
+curl -L https://git.io/n-install | N_PREFIX=~/.util/n bash -s -- -y lts 0.10
 ```
+[github.com/mklement0/n-install](https://github.com/mklement0/n-install)
 
 ---
 See also: `npm`'s documentation on
